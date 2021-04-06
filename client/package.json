@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://keeper-app1.herokuapp.com/notes",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
