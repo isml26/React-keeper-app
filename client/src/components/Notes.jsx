@@ -4,6 +4,7 @@ import {CircularProgress} from "@material-ui/core";
 import Note from "./Note";
 
 function Notes(){
+    //a
     const notes = useSelector((state)=>state.notes);
     return<div className="notes_div">
         {!notes.length ? <CircularProgress/> :notes.map((noteItem, index) => {
